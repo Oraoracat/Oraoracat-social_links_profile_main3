@@ -1,0 +1,89 @@
+*
+{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+  background-color: var(--darker-Grey);
+}
+
+body
+{
+    font-size: 14;
+}
+
+:root
+{
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --light-Grey: hsl(0, 0%, 20%);
+    --middle-Grey: hsl(0, 0%, 12%);
+    --darker-Grey: hsl(0, 0%, 8%);
+}
+
+.block1
+{
+    background-color: var(--middle-Grey);
+    width: 450px;
+
+    text-align: center;
+    margin: 300px auto;
+
+    border-radius: 7px;
+    padding: 40px 0px;
+}
+
+.avatar
+{
+    width: 100px;
+    border-radius: 500px;
+
+}
+
+.name
+{
+    font-size: 28px;
+    color: var(--White);
+    background-color: transparent;
+    margin: -5px;
+    padding-top: 30px;
+}
+
+.live
+{
+    font-size: 14;
+    color: var(--Green);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.description
+{
+    color: var(--White);
+    font-weight:lighter;
+    background-color: transparent;
+
+}
+
+.Buttons
+{
+    width: 350px;
+    margin: 7px;
+    padding: 20px 50px;
+    border-radius: 7px;
+    background-color: var(--light-Grey);
+    border: 0;
+    color: var(--White);
+    transition: 0.3s;
+    font-size: 16px;
+
+}
+
+.Buttons:hover
+{
+    background-color: var(--Green);
+    color: var(--darker-Grey);
+}
